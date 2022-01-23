@@ -1,0 +1,17 @@
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+  background-color: var(--beige);
+  border-radius: 20px;
+  padding: 7px;
+  opacity: 0.7;
+}
+
+#quote span:last-child {
+  margin-top: 15px;
+  font-size: 30px;
+  color: gray;
+}
